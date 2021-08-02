@@ -1,0 +1,53 @@
+.cam-style{
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 32px;
+    height: 128%;
+    color: #191D21;
+}
+
+.los-style{
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191D21;
+    font-style: normal;
+}
+
+.d-detail-style{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #656F77;
+    font-style: normal;
+}
+
+.mounting{
+    width: 129px;
+    height: 32px;
+    padding-top: 10px;
+    background-color: #191D21;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mounting:nth-child(1){
+    margin-right: 10px;
+}
+
+.sel-date{
+    font-family: Nunito;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -.5px;
+    color: white;
+    padding-top: 10px;
+}

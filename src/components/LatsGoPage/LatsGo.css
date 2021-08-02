@@ -1,0 +1,16 @@
+.go-button > p{
+    display: flex;
+    width: 100%;
+    height: 57px;
+    background-color: #191D21;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8.72727px 23.2727px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+}

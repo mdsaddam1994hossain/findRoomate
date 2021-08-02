@@ -1,0 +1,61 @@
+.card-design{
+    display: flex;
+    width: 100%;
+   
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.imgStyle{
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texSyle{
+    flex-grow: 7;
+}
+
+.pstyles{
+    width: 171px;
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 26px;
+    
+
+}
+
+.pp-style{
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color:  #656F77;
+    position: relative;
+    top: 10px;
+}
+
+.name-style{
+    font-family: Nunito;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191D21;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.place-style{
+    font-family: Nunito;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #656F77;
+    position: relative;
+    left: 15px;
+}

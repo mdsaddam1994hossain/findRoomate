@@ -1,0 +1,28 @@
+.skiped-button{
+    background-color: #FFE3D2;
+    width: 80%;
+    border: .71px solid #191D21;
+    height: 56.1px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+  
+ 
+}
+
+.next-buttons{
+    background-color: #191D21;
+    width:80%;
+    border: .71px solid #191D21;
+    height: 56.1px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    left: 10px;
+   
+}

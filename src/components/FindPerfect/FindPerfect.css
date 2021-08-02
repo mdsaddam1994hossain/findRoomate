@@ -1,0 +1,48 @@
+
+
+.explo-btn{
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #191D21;
+    padding: 8px, 16px, 8px, 16px;
+    color: #ffffff;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    line-height: 24px;
+}
+
+.log-btn{
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 8px, 16px, 8px, 16px;
+    color: #191D21;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #191D21;
+    line-height: 24px;
+    
+    
+   
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    border: 0;
+    padding-top: 5px;
+    
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector:focus-visible{
+    display: none;
+}
+
+.ant-input:focus, .ant-input-focused{
+    box-shadow: none;
+    
+}
+

@@ -1,0 +1,36 @@
+
+
+.container-fluid{
+    width: 90%;
+    margin : 0 auto;
+}
+
+.pstyle{
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 32px;
+    color: #191D21;
+    line-height: 41.96px;
+    font-style: normal;
+}
+
+.para-style{
+    font-family: Nunito;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656F77;
+}
+
+.a-style{
+    text-decoration: none;
+    color: white;
+    font-weight:700;
+    font-family: Inter;
+}
+
+.a-style:hover{
+    text-decoration: underline solid rgb(20, 124, 209);
+    color: white;
+}

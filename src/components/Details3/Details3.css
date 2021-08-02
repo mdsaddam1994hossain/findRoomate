@@ -1,0 +1,41 @@
+.jhon-style{
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44.8px;
+    color: #191D21;
+    letter-spacing: -1px;
+}
+
+.book-room-style{
+
+    display: flex;
+    color: white;
+    background-color: #191D21;
+    width: 160px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    height: 40px;
+
+  
+    
+}
+
+.room-style{
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.5px;
+    font-style: normal;
+}
+
+.self-style{
+    width:13.33px;
+    height:13.33px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+   
+   

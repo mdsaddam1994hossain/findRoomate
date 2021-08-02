@@ -1,0 +1,63 @@
+.div-style{
+    width: 100%;
+    border-radius: 16px;
+    background-color: #CFFFF6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.style-week{
+  font-family: Nunito;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.style-button{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px, 16px, 8px, 16px;
+    background-color: #ffffff;
+    border: 1px solid #191D21;
+    font-weight: 400;
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191D21;
+    letter-spacing: -0.5px;
+    margin-top: 10px;
+  
+}
+
+
+.mainDiv{
+        display: flex;
+}
+
+.mainDiv >div{
+    width: 158px;
+    height: 56px;
+    border-radius: 16px;
+    padding: 16px;
+    
+}
+
+.piramid{
+    background-color: #FFE3D2;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city{
+    background-color: #FFF2AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
