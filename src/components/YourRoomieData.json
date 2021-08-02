@@ -1,0 +1,20 @@
+[
+    {
+        "image" : "./img/Avatar.png",
+        "name" : "Courtnery Henry",
+        "country" : "Viet Nam",
+        "option"  : "./img/Vector4.png"
+    },
+    {
+        "image" : "./img/Avatar2.png",
+        "name" : "Jenny Wilson",
+        "country" : "Algeria",
+        "option"  : "./img/Vector4.png"
+    },
+    {
+        "image" : "./img/Avatar3.png",
+        "name" : "Brooklyn Simmons",
+        "country" : "Aland Islands",
+        "option"  : "./img/Vector4.png"
+    }
+]

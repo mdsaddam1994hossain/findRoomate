@@ -1,10 +1,6 @@
 import React, { useState } from 'react'
 import { TabBar } from 'antd-mobile';
 import Upcomming from './Upcomming/Upcomming';
-import Details3 from './Details3/Details3';
-import Details2 from './Details2/Details2';
-import Login from './Login/Login';
-import BootomTab from './BootomTab/BootomTab';
 import FindPerfect2 from './FindPerfect2/FindPerfect2';
 import YourRoomie from './YourRoomie/YourRoomie';
 
@@ -110,18 +106,6 @@ const Layout = () => {
            <YourRoomie />
           </TabBar.Item>
           
-          {/* <TabBar.Item
-            icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
-            selectedIcon={{ uri: 'https://zos.alipayobjects.com/rmsportal/gjpzzcrPMkhfEqgbYvmN.svg' }}
-            title="My"
-            key="my"
-            selected={selectedTab === 'yellowTabs'}
-            onPress={() => {
-               setSelectedTab('yellowTabs')
-            }}
-          >
-            <BootomTab />
-          </TabBar.Item> */}
         </TabBar>
       </div>
     );

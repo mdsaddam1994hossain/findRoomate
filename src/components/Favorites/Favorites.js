@@ -4,19 +4,20 @@ import { SearchOutlined } from '@ant-design/icons';
 import './Favorites.css'
 import Header from '../Header/Header';
 import { Link } from 'react-router-dom';
+import FavoriteData from '../FavoritesData.json'
 
 const Farorites = () => {
 
-    const title =  <p className="favorite-style">Favorites</p>
-    const icon1 =  <SearchOutlined style={{ paddingTop: "5px", marginRight: "15px" }} />
-    const icon2 =  <img src='./img/rate.png' />
+    const title = <p className="favorite-style">Favorites</p>
+    const icon1 = <SearchOutlined style={{ paddingTop: "5px", marginRight: "15px" }} />
+    const icon2 = <img src='./img/rate.png' />
 
     return (
         <div style={{ background: "#E8EEF3", height: "800px" }}>
 
             <div className="container-fluid">
 
-                <Header title={title} icon1={icon1} icon2={icon2}/>
+                <Header title={title} icon1={icon1} icon2={icon2} />
 
                 <div>
                     <Row>
@@ -37,21 +38,28 @@ const Farorites = () => {
                 <div>
                     <Row>
                         <Col xs={{ offset: 1, span: 22 }} sm={{ offset: 4, span: 16 }} md={{ offset: 6, span: 12 }} lg={{ offset: 7, span: 10 }} style={{ textAlign: "left", marginTop: "1rem" }}>
-                            <div style={{ display: "flex", width: "100%", background: "white", borderRadius: "8px", padding: "4px, 8px, 4px, 8px", justifyContent: "space-between", alignItems: "center" }}>
+                            {FavoriteData.map((item, index) => {
+                                return (
 
-                                <div className="text-style">
-                                    <p className="name-style">Courtney Henry</p>
-                                    <p className="place-style">Viet Nam</p>
-                                </div>
-                                <div className="doted-style">
-                                    <img src='./img/Vector8.png' />
-                                </div>
-                            </div>
+                                    <div key={index} style={{ display: "flex", width: "100%", background: "white", borderRadius: "8px", padding: "4px, 8px, 4px, 8px", justifyContent: "space-between", alignItems: "center",marginBottom:"1rem" }}>
+
+                                        <div className="text-style">
+                                            <p className="name-style"> {item.name} </p>
+                                            <p className="place-style"> {item.country} </p>
+                                        </div>
+                                        <div className="doted-style">
+                                        <Link to='/favorites2' >   <img src={item.img} />  </Link>
+                                        </div>
+                                    </div>
+
+                                )
+                            })}
+
                         </Col>
                     </Row>
                 </div>
 
-                <div>
+                {/* <div>
                     <Row>
                         <Col xs={{ offset: 1, span: 22 }} sm={{ offset: 4, span: 16 }} md={{ offset: 6, span: 12 }} lg={{ offset: 7, span: 10 }} style={{ textAlign: "left", marginTop: "1rem" }}>
                             <div style={{ display: "flex", width: "100%", background: "white", borderRadius: "8px", padding: "4px, 8px, 4px, 8px", justifyContent: "space-between", alignItems: "center" }}>
@@ -66,9 +74,9 @@ const Farorites = () => {
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <Row>
                         <Col xs={{ offset: 1, span: 22 }} sm={{ offset: 4, span: 16 }} md={{ offset: 6, span: 12 }} lg={{ offset: 7, span: 10 }} style={{ textAlign: "left", marginTop: "1rem" }}>
                             <div style={{ display: "flex", width: "100%", background: "white", borderRadius: "8px", padding: "4px, 8px, 4px, 8px", justifyContent: "space-between", alignItems: "center" }}>
@@ -83,9 +91,9 @@ const Farorites = () => {
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <Row>
                         <Col xs={{ offset: 1, span: 22 }} sm={{ offset: 4, span: 16 }} md={{ offset: 6, span: 12 }} lg={{ offset: 7, span: 10 }} style={{ textAlign: "left", marginTop: "1rem" }}>
                             <div style={{ display: "flex", width: "100%", background: "white", borderRadius: "8px", padding: "4px, 8px, 4px, 8px", justifyContent: "space-between", alignItems: "center" }}>
@@ -100,9 +108,9 @@ const Farorites = () => {
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </div> */}
 
-                <div>
+                {/* <div>
                     <Row>
                         <Col xs={{ offset: 1, span: 22 }} sm={{ offset: 4, span: 16 }} md={{ offset: 6, span: 12 }} lg={{ offset: 7, span: 10 }} style={{ textAlign: "left", marginTop: "1rem" }}>
                             <div style={{ display: "flex", width: "100%", background: "white", borderRadius: "8px", padding: "4px, 8px, 4px, 8px", justifyContent: "space-between", alignItems: "center" }}>
@@ -117,7 +125,7 @@ const Farorites = () => {
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </div> */}
 
             </div>
 

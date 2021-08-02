@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Summer Roomies",
+        "country" : "Caribbean",
+        "img" : "./img/Vector8.png"
+    },
+    {
+        "name" : "European Roomies",
+        "country" : "France",
+        "img" : "./img/Vector8.png"
+    },
+    {
+        "name" : "Foodie Roomies",
+        "country" : "Gastro Tour",
+        "img" : "./img/Vector8.png"
+    },
+    {
+        "name" : "New Roomies",
+        "country" : "Ukraine",
+        "img" : "./img/Vector8.png"
+    },
+    {
+        "name" : "Spanish Roomies",
+        "country" : "Spain",
+        "img" : "./img/Vector8.png"
+    },
+    {
+        "name" : "British Roomies",
+        "country" : "Great Britain",
+        "img" : "./img/Vector8.png"
+    }
+]
